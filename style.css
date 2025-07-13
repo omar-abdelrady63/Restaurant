@@ -1,0 +1,179 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #121517;
+}
+
+.sec1{
+    height: 250px;
+    background-image: url('img/Logo.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+}
+
+.sec1_data{
+    font-size: 25px;
+    display: flex;
+    gap: 20px;
+}
+
+.sec1_data a{
+    color: white;
+    text-decoration: none;
+    /* margin: 10px; */
+}
+
+.sec1_data a:hover{
+    color: #EFBC4F;
+
+}
+
+/* ======================== */
+
+
+.sec2{
+    height: 100px;
+    background-image: url('img/down\ bg\ .png');
+    background-position: center;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 22px;
+    margin: 30px 0px;
+}
+
+/* ====================== */
+
+.sec3{
+    height: 600px;
+    background-image: url('img/home.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+/* ======================= */
+.sec4{
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    margin: 30px 0px;
+}
+
+.sec4_container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.sec4_card{
+    width: 22%;
+
+}
+.sec4_card img{
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+    transition: 1s;
+}
+
+.sec4_card img:hover{
+    transform: scale(1.1);
+}
+.row{
+    border: 1px solid white;
+    width: 90%;
+    margin: auto;
+}
+
+/* ========================= */
+.sec5{
+    text-align: center;
+    color: white;
+    margin: 30px 0px;
+}
+
+.sec5 form{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+.sec5 form .inp{
+    padding: 10px 15px;
+    outline: none;
+    color: white;
+    background-color: #121517;
+    border: solid 1px gray;
+}
+
+
+.sec5 form .sub{
+    padding: 0px 15px;
+    background-color: #1E2427;
+    color: white;
+    border: none;
+    font-size: 16px;
+}
+
+
+/* ====================== */
+.sec6{
+    background-image: url('img/down\ bg\ .png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 0px;
+}
+
+.sec6_card{
+    width: 30%;
+    text-align: center;
+    margin: 30px 0px;
+}
+
+/* =================== */
+
+.footer{
+    height: 200px;
+    background-image: url('img/Logo\ down.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 30px 0px;
+
+}
+
+.footer_data{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.footer_data a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    margin: 0px 10px;
+}
+.footer p {
+    font-size: 22px ;
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px 0px;
+
+}

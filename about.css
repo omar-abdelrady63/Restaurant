@@ -1,0 +1,107 @@
+
+
+.sec3{
+    background-image: url('img/about/about\ -\ Copy.jpg');
+}
+
+.sect4{
+    /* border: solid blue; */
+    padding: 15px 0px;
+}
+
+/* .sect4_container{
+    /* border: solid red; }*/
+
+.sect4_header{
+    /* border: solid green; */
+    /* margin-bottom: 7px; */
+    color: white;
+    font-size: 22px;
+    text-align: center;
+}
+
+.sect4_content{
+    /* border: solid yellow; */
+    padding-top: 12px;
+    width: 70%;
+    margin: auto;
+    color: white;
+}
+
+.sect4_container hr{
+    width: 60%;
+    margin: auto;
+    border: 1px solid white;
+}
+
+.sect5_container1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px 0px;
+    /* border: solid red; */
+}
+
+.sect5_card{
+    width: 47%;
+    /* font-size: 25px; */
+    /* border: solid green; */
+}
+
+.sect5_card img{
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    /* border: solid blue; */
+}
+
+.sect5_card p{
+    color: white;
+    text-align: center;
+}
+
+.hed{
+    text-align: center;
+    color: white;
+    padding: 12px 0px;
+    font-size: 30px;
+}
+
+.met{
+    text-align: center;
+    color: white;
+    margin: 50px 0px;
+    font-size: 30px;
+}
+
+.sect6_container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.sect6_card{
+    width: 30%;
+    /* font-size: 25px; */
+}
+.sect6_card img{
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+
+.sect6_card p{
+    color: white;
+    text-align: center;
+}
+
+.name{
+    text-align: center;
+    color: white;
+    padding: 12px 0px;
+    font-size: 30px;
+}
+
+.sec2{
+    color: black;
+}

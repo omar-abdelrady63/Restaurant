@@ -1,0 +1,35 @@
+.menu_sec3{
+    text-align: center;
+    color: white;
+    margin: 50px 0px;
+
+}
+
+.menu_sec3 span{
+    border: solid;
+    font-size: 30px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    transition: 1s;
+}
+.menu_sec3 span:hover{
+    font-size: 40px;
+    background-color: #F8BF4E;
+
+}
+.menu_sec3_container1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 30px 0px;
+}
+.menu_sec3_card{
+    width: 30%;
+    font-size: 25px;
+}
+.menu_sec3_card img{
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
